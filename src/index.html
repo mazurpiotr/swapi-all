@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>https://swapi.co - Simple App</title>
+
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 offset-md-2 mt-5">
+        <div class="alert alert-danger" id="alert" role="alert">
+          <!-- Will display errors -->
+        </div>
+        <form id="search-form">
+          <div class="input-group mb-3">
+              <input type="text" class="form-control" id="search-input" placeholder="Search..." aria-label="Search input" aria-describedby="button-search">
+              <select class="custom-select" id="search-option">
+                <option selected value="films">Films</option>
+                <option value="people">People</option>
+                <option value="planets">Planets</option>
+                <option value="starships">Starships</option>
+              </select>
+              <div class="input-group-append">
+                <button class="btn btn-outline-primary" type="submit">Search</button>
+              </div>
+            </div>
+        </form>
+
+        <ul class="list-group mt-5" id="search-results">
+          <!-- <li class="list-group-item">Cras justo odio</li> -->
+        </u>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
