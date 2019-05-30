@@ -1,4 +1,4 @@
-# swapi-all
+# swapi-app
 
 Search for films, people, planets and starchips from Star Wars universe.
 App is featching data from https://www.swapi.co/
